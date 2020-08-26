@@ -2,37 +2,44 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.productContainer{
+display: flex;
+flex-wrap: wrap;
+background: #f7f6f6;
+margin:15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.productContainer > .link{
+  box-shadow: 0 0 10px #463636;
+  width:250px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-decoration: inherit;
 }
-
-.App-link {
-  color: #61dafb;
+.shoestore{
+  color: darkblue;
+    font-style: italic;
+    text-shadow: 3px 1px darkgrey;
+    text-transform: capitalize;
 }
+.link h4{
+ color: #000;
+ text-transform: capitalize;
+}
+.productContainer > .link:hover{
+  background-color: lightblue;
+  color: #000;
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.name{
+  font-size: x-large;
+  font-family: initial;
+  text-shadow: 1px 1px gray;
+}
+.Aboutus > h3{
+font-family: auto;
+  width: fit-content;
+  font-style: italic;
+  margin: 30px;
 }
